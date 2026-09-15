@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lois 'Laine Plumbing — Victoria BC plumber, Sooke to Sidney</title>
+<meta name="description" content="Family and female owned plumbing in Victoria BC. Burst pipes, blocked drains, no hot water, leaks and fixture replacement. Serving Sooke to Sidney and the Gulf Islands. Call 250-213-1455.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=Yellowtail&display=swap" rel="stylesheet">
+<style>
+  :root{
+    color-scheme: light;
+    --ink:#000000;
+    --navy:#14226B;
+    --blue:#2E8BD6;
+    --pink:#EC1080;
+    --red:#D81E1E;
+    --caption:#FFC93C;
+    --paper:#ffffff;
+    --tint:#E9F2FC;
+    --body:#1B1B1B;
+    --panel-shadow: 7px 7px 0 var(--navy);
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+
+  html{ -webkit-text-size-adjust:100% }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--body);
+    font-family:"Archivo","Helvetica Neue",Arial,sans-serif;
+    font-variation-settings:"wdth" 100;
+    font-size:1.0625rem;
+    line-height:1.6;
+    padding-bottom:calc(64px + env(safe-area-inset-bottom,0px));
+  }
+  @media (min-width:800px){ body{ padding-bottom:0 } }
+
+  img{max-width:100%;height:auto;display:block}
+  [hidden]{display:none!important}
+
+  a{color:var(--navy)}
+  a:focus-visible,button:focus-visible{
+    outline:3px solid var(--pink);
+    outline-offset:3px;
+  }
+
+  .wrap{max-width:1120px;margin:0 auto;padding-inline:20px}
+
+  h1,h2,h3{
+    font-weight:900;
+    font-variation-settings:"wdth" 118,"wght" 900;
+    line-height:0.94;
+    letter-spacing:-0.015em;
+    color:var(--navy);
+    margin:0;
+    text-transform:none;
+  }
+  h1{font-size:clamp(2.6rem,7.4vw,4.75rem)}
+  h2{font-size:clamp(2rem,4.6vw,3rem)}
+  h3{font-size:1.28rem;line-height:1.1}
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    border-bottom:4px solid var(--ink);
+    background:var(--paper);
+    position:sticky;
+    top:env(safe-area-inset-top,0px);
+    z-index:40;
+  }
+  .topbar .wrap{
+    display:flex;align-items:center;gap:18px;
+    justify-content:space-between;
+    padding-block:10px;
+  }
+  .mark{
+    display:flex;align-items:center;gap:11px;
+    text-decoration:none;color:var(--navy);
+  }
+  .mark img{width:54px;height:54px;object-fit:cover;object-position:16% 45%;
+    background:#fff;border:3px solid var(--ink);border-radius:50%}
+  .mark b{
+    display:block;font-weight:900;font-variation-settings:"wdth" 112,"wght" 900;
+    font-size:1.12rem;line-height:1;color:var(--pink)}
+  .mark span{font-size:.8rem;letter-spacing:.06em;color:var(--navy)}
+
+  .call{
+    display:inline-flex;align-items:center;gap:9px;
+    background:var(--pink);color:#fff;text-decoration:none;
+    font-weight:900;font-variation-settings:"wdth" 108,"wght" 900;
+    font-size:1.12rem;letter-spacing:-0.01em;
+    border:3px solid var(--ink);
+    padding:11px 18px;
+    box-shadow:4px 4px 0 var(--navy);
+  }
+  .call:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--navy)}
+  .topbar .call{display:none}
+  @media (min-width:800px){ .topbar .call{display:inline-flex} }
+
+  /* fixed mobile call bar */
+  .callbar{
+    position:fixed;left:0;right:0;bottom:0;z-index:50;
+    background:var(--pink);
+    border-top:4px solid var(--ink);
+    padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));
+    display:flex;gap:12px;
+  }
+  .callbar a{
+    flex:1;text-align:center;text-decoration:none;color:#fff;
+    font-weight:900;font-size:1.15rem;font-variation-settings:"wdth" 108,"wght" 900;
+  }
+  @media (min-width:800px){ .callbar{display:none} }
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative;
+    background:
+      radial-gradient(circle at center, rgba(236,16,128,.24) 1.6px, transparent 1.7px) 0 0/13px 13px,
+      linear-gradient(180deg,#fff 0%, var(--tint) 100%);
+    border-bottom:4px solid var(--ink);
+    overflow:hidden;
+  }
+  .hero .wrap{
+    display:grid;gap:26px;
+    grid-template-columns:1fr;
+    padding-block:34px 30px;
+    align-items:center;
+  }
+  @media (min-width:900px){
+    .hero .wrap{
+      grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);
+      gap:24px;padding-block:44px 40px;
+      max-width:1280px;
+    }
+  }
+  .hero-art{order:-1;margin-inline:-20px}
+  @media (min-width:900px){ .hero-art{order:0;margin-right:-40px} }
+  .hero-art img{width:100%;filter:drop-shadow(0 12px 14px rgba(20,34,107,.22))}
+
+  .caption-box{
+    display:inline-block;
+    background:var(--caption);
+    border:3px solid var(--ink);
+    padding:6px 13px;
+    font-weight:800;
+    font-size:.98rem;
+    letter-spacing:.01em;
+    color:#241B00;
+    margin-bottom:16px;
+    transform:rotate(-1.2deg);
+  }
+  .hero p.lede{
+    font-size:1.19rem;
+    max-width:44ch;
+    margin:18px 0 26px;
+    color:#1B1B1B;
+  }
+  .hero-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .btn-ghost{
+    display:inline-flex;align-items:center;
+    background:#fff;color:var(--navy);text-decoration:none;
+    font-weight:900;font-size:1.05rem;
+    border:3px solid var(--ink);
+    padding:11px 18px;
+    box-shadow:4px 4px 0 var(--blue);
+  }
+  .btn-ghost:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--blue)}
+
+  /* ---------- creed strip ---------- */
+  .creed{
+    background:var(--navy);
+    color:#fff;
+    border-bottom:4px solid var(--ink);
+  }
+  .creed .wrap{
+    display:flex;flex-wrap:wrap;gap:6px 34px;
+    padding-block:16px;
+    font-weight:900;font-variation-settings:"wdth" 112,"wght" 900;
+    font-size:clamp(1.1rem,2.6vw,1.5rem);
+  }
+  .creed span::before{content:"";display:inline-block;width:13px;height:13px;
+    background:var(--pink);border:2px solid #fff;margin-right:10px;
+    transform:rotate(45deg) translateY(-2px)}
+
+  /* ---------- sections ---------- */
+  section{padding-block:56px}
+  .section-head{max-width:52ch;margin-bottom:30px}
+  .section-head p{margin:14px 0 0;font-size:1.1rem}
+
+  /* services */
+  .panels{
+    display:grid;gap:18px;
+    grid-template-columns:repeat(auto-fit,minmax(255px,1fr));
+  }
+  .panel{
+    border:3px solid var(--ink);
+    background:#fff;
+    box-shadow:var(--panel-shadow);
+    padding:20px 20px 22px;
+  }
+  .panel h3{color:var(--pink)}
+  .panel p{margin:9px 0 0;font-size:1rem}
+  .panel:nth-child(3n+2){box-shadow:7px 7px 0 var(--pink)}
+  .panel:nth-child(3n+3){box-shadow:7px 7px 0 var(--blue)}
+
+  /* lois */
+  .about{background:var(--tint);border-block:4px solid var(--ink)}
+  .about .wrap{
+    display:grid;gap:28px;grid-template-columns:1fr;align-items:start;
+  }
+  @media (min-width:860px){
+    .about .wrap{grid-template-columns:330px 1fr;gap:44px}
+  }
+  .portrait{
+    border:3px solid var(--ink);
+    box-shadow:9px 9px 0 var(--pink);
+    background:#fff;
+    max-width:330px;
+  }
+  .bubble{
+    position:relative;
+    background:#fff;
+    border:3px solid var(--ink);
+    padding:20px 22px;
+    margin:0 0 24px;
+    font-size:1.24rem;
+    font-weight:700;
+    line-height:1.35;
+    color:var(--navy);
+  }
+  .bubble::after,.bubble::before{
+    content:"";position:absolute;bottom:-19px;left:38px;
+    border:16px solid transparent;border-top-color:var(--ink);border-bottom:0;
+  }
+  .bubble::before{bottom:-14px;left:41px;border:13px solid transparent;border-top-color:#fff;border-bottom:0;z-index:1}
+  .about ul{margin:0;padding-left:1.15em}
+  .about li{margin-bottom:8px}
+  .signature{
+    font-family:"Yellowtail",cursive;
+    color:var(--pink);
+    font-size:clamp(2.1rem,5.2vw,3.1rem);
+    line-height:1.05;
+    margin:26px 0 0;
+    transform:rotate(-2deg);
+    transform-origin:left center;
+  }
+
+  /* community */
+  .community{padding-bottom:64px}
+  .community .wrap{
+    display:grid;gap:26px;grid-template-columns:1fr;align-items:center;
+  }
+  @media (min-width:880px){
+    .community .wrap{grid-template-columns:1.35fr 1fr;gap:44px}
+  }
+  .photo-panel{
+    border:3px solid var(--ink);
+    box-shadow:9px 9px 0 var(--blue);
+    background:#fff;
+  }
+  .photo-panel img{width:100%}
+  .photo-panel figcaption{
+    border-top:3px solid var(--ink);
+    padding:12px 16px;
+    font-weight:800;
+    font-size:.98rem;
+    background:var(--caption);
+    color:#241B00;
+  }
+  figure{margin:0}
+
+  /* referral */
+  .referral{
+    background:var(--pink);
+    color:#fff;
+    border-bottom:4px solid var(--ink);
+    position:relative;
+    z-index:1;
+  }
+  .referral h2{color:#fff}
+  .referral .wrap{
+    display:grid;gap:24px;align-items:center;grid-template-columns:1fr;
+  }
+  @media (min-width:780px){
+    .referral .wrap{grid-template-columns:1fr 250px}
+  }
+  .referral p{font-size:1.15rem;max-width:50ch;margin:14px 0 0}
+  .referral img{
+    width:230px;margin-inline:auto;
+    transform:rotate(-9deg);
+    filter:drop-shadow(0 14px 16px rgba(0,0,0,.32));
+  }
+  @media (min-width:780px){
+    .referral{padding-block:56px 40px}
+    .referral img{
+      width:270px;
+      margin-bottom:-88px;
+      margin-right:-10px;
+      position:relative;
+      z-index:2;
+    }
+  }
+
+  /* area */
+  .area-list{
+    display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:26px 0 0;list-style:none;
+  }
+  .area-list li{
+    border:3px solid var(--ink);
+    padding:7px 14px;
+    font-weight:800;
+    background:#fff;
+  }
+
+  /* contact */
+  .contact{background:var(--navy);color:#fff;border-top:4px solid var(--ink)}
+  .contact h2{color:#fff}
+  .contact a{color:#fff}
+  .contact .wrap{
+    display:grid;gap:30px;grid-template-columns:1fr;
+  }
+  @media (min-width:800px){ .contact .wrap{grid-template-columns:1.1fr .9fr} }
+  .lines{margin:22px 0 0;padding:0;list-style:none;font-size:1.13rem}
+  .lines li{margin-bottom:12px}
+  .lines b{display:block;font-size:.82rem;font-weight:800;color:var(--caption);
+    letter-spacing:.04em;margin-bottom:1px}
+  .emergency{
+    border:3px solid #fff;
+    background:var(--red);
+    padding:22px;
+    box-shadow:7px 7px 0 rgba(0,0,0,.45);
+  }
+  .emergency h3{color:#fff;margin-bottom:10px}
+  .emergency p{margin:0 0 18px}
+  .emergency a.btn-emergency{
+    display:inline-flex;align-items:center;
+    background:var(--caption);
+    color:#1A1200;
+    text-decoration:none;
+    font-weight:900;font-size:1.08rem;
+    border:3px solid var(--ink);
+    padding:11px 18px;
+    box-shadow:4px 4px 0 var(--ink);
+  }
+  .emergency a.btn-emergency:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+
+  footer{
+    background:#fff;border-top:4px solid var(--ink);
+    padding-block:22px;font-size:.92rem;
+  }
+  footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="mark" href="#top">
+      <img src="assets/logo-hero.png" alt="">
+      <span>
+        <b>Lois 'Laine Plumbing</b>
+        <span>Victoria, BC</span>
+      </span>
+    </a>
+    <a class="call" href="tel:+12502131455">Call 250-213-1455</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <p class="caption-box">Meanwhile, in a flooded basement in Langford&hellip;</p>
+        <h1>Burst pipe?<br>She's already<br>on her way.</h1>
+        <p class="lede">Licensed, family and female owned plumbing from Sooke to Sidney and the Gulf Islands. Same-day help for leaks, blocked drains and cold showers.</p>
+        <div class="hero-cta">
+          <a class="call" href="tel:+12502131455">Call 250-213-1455</a>
+          <a class="btn-ghost" href="#contact">Send a message</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/logo-hero.png" width="1753" height="897"
+             alt="Lois 'Laine Plumbing: a caped plumber flying with a pipe wrench and plunger.">
+      </div>
+    </div>
+  </div>
+
+  <div class="creed">
+    <div class="wrap">
+      <span>Do it now</span>
+      <span>Do it right</span>
+      <span>Make it affordable</span>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What we fix</h2>
+        <p>Repairs, replacements and small renovations for homes across Greater Victoria. If water goes through it, we work on it.</p>
+      </div>
+      <div class="panels">
+        <div class="panel">
+          <h3>Leaks and burst pipes</h3>
+          <p>Split or broken pipe found and repaired, and the water cleaned up behind it.</p>
+        </div>
+        <div class="panel">
+          <h3>Blocked drains</h3>
+          <p>Slow sinks, backed-up tubs and perimeter drains cleared and flowing again.</p>
+        </div>
+        <div class="panel">
+          <h3>No hot water</h3>
+          <p>Hot water tanks diagnosed, repaired or replaced, usually the same day.</p>
+        </div>
+        <div class="panel">
+          <h3>Toilets and taps</h3>
+          <p>Running toilets, dripping kitchen and bathroom faucets, and garden spigots.</p>
+        </div>
+        <div class="panel">
+          <h3>Tubs and showers</h3>
+          <p>Valves, diverters and fixtures repaired or swapped for something you like better.</p>
+        </div>
+        <div class="panel">
+          <h3>Small renovations</h3>
+          <p>Bathroom and kitchen refreshes, from a new vanity to the whole room re-plumbed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="wrap">
+      <img class="portrait" src="assets/lois.webp" width="365" height="486"
+           alt="Lois 'Laine, owner of Lois 'Laine Plumbing.">
+      <div>
+        <p class="bubble">"I am Lois 'Laine, and I love my job."</p>
+        <h2>Who turns up at your door</h2>
+        <p>Lois 'Laine Plumbing is family owned and female owned, and has been serving the south Island for years. You get a plumber who explains what went wrong, what it costs, and what happens next, before any work starts.</p>
+        <ul>
+          <li>Licensed, insured, and local to Victoria</li>
+          <li>Straight pricing, agreed before the work begins</li>
+          <li>Family owned, female owned, and here for the long haul</li>
+        </ul>
+        <p class="signature">Your Super Hero Plumber</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="community">
+    <div class="wrap">
+      <figure class="photo-panel">
+        <img src="assets/soccer-team.jpg" width="1600" height="1200"
+             alt="The JDF U17 boys soccer team lined up in front of the goal.">
+        <figcaption>JDF U17 boys, District Cup 2nd place, 2024</figcaption>
+      </figure>
+      <div>
+        <h2>Out in the community</h2>
+        <p>We sponsored the JDF U17 boys soccer team in 2024, because the families we work for are the same families in the stands. Local work, local kids, local company.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="referral">
+    <div class="wrap">
+      <div>
+        <h2>Send a friend, get a gift card</h2>
+        <p>Happy customers keep us busy. Refer someone who books a job and we will put a gift card in your hands. Just tell us who sent them.</p>
+      </div>
+      <img src="assets/pink-hat.png" width="1367" height="1150" alt="">
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Where we work</h2>
+        <p>Greater Victoria and the south Island, ferry included.</p>
+      </div>
+      <ul class="area-list">
+        <li>Victoria</li><li>Saanich</li><li>Oak Bay</li><li>Esquimalt</li>
+        <li>View Royal</li><li>Colwood</li><li>Langford</li><li>Metchosin</li>
+        <li>Sooke</li><li>Central Saanich</li><li>North Saanich</li><li>Sidney</li>
+        <li>Gulf Islands</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div>
+        <h2>Get in touch</h2>
+        <ul class="lines">
+          <li><b>Phone</b><a href="tel:+12502131455">250-213-1455</a></li>
+          <li><b>Email</b><a href="mailto:l.laine.plumbing@gmail.com">l.laine.plumbing@gmail.com</a></li>
+          <li><b>Facebook</b><a href="https://www.facebook.com/115954430203476" rel="noopener">Lois 'Laine Plumbing</a></li>
+          <li><b>Service area</b>Sooke to Sidney and the Gulf Islands, British Columbia</li>
+        </ul>
+      </div>
+      <div class="emergency">
+        <h3>Water coming in right now?</h3>
+        <p>Shut off the main valve if you can reach it, then call. Emergencies go to the front of the line.</p>
+        <a class="btn-emergency" href="tel:+12502131455">Call 250-213-1455</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Lois 'Laine Plumbing Inc &middot; Victoria, British Columbia</span>
+    <span>&copy; 2026 Lois 'Laine Plumbing Inc</span>
+  </div>
+</footer>
+
+<nav class="callbar" aria-label="Call Lois 'Laine Plumbing">
+  <a href="tel:+12502131455">Call 250-213-1455</a>
+</nav>
+
+</body>
+</html>
