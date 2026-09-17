@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Lois 'Laine Plumbing — Victoria BC plumber, Sooke to Sidney</title>
-<meta name="description" content="Family and female owned plumbing in Victoria BC. Burst pipes, blocked drains, no hot water, leaks and fixture replacement. Serving Sooke to Sidney and the Gulf Islands. Call 250-213-1455.">
+<meta name="description" content="Red Seal certified, family and female owned plumbing in Victoria BC. Burst pipes, blocked drains, no hot water, leaks and fixture replacement. Serving Sooke to Sidney and the Gulf Islands. Call 250-213-1455.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=Yellowtail&display=swap" rel="stylesheet">
@@ -159,6 +159,13 @@
     color:#1B1B1B;
   }
   .hero-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .seal{flex:0 0 auto;width:108px;margin:0;transform:rotate(-8deg)}
+  .seal svg{width:100%;height:auto;display:block;
+    filter:drop-shadow(5px 5px 0 rgba(0,0,0,.9))}
+  @media (min-width:1100px){
+    .seal{position:absolute;top:22px;right:8%;z-index:3;
+      width:clamp(132px,11vw,176px)}
+  }
   .btn-ghost{
     display:inline-flex;align-items:center;
     background:#fff;color:var(--navy);text-decoration:none;
@@ -346,6 +353,19 @@
     box-shadow:4px 4px 0 var(--ink);
   }
   .emergency a.btn-emergency:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+  .socials{display:flex;flex-wrap:wrap;gap:14px;margin:26px 0 0}
+  .socials a{
+    display:inline-flex;align-items:center;gap:10px;
+    background:#fff;color:var(--navy);text-decoration:none;
+    font-weight:900;font-size:1rem;
+    border:3px solid var(--ink);
+    padding:9px 16px 9px 12px;
+    box-shadow:4px 4px 0 var(--blue);
+  }
+  .socials a + a{box-shadow:4px 4px 0 var(--pink)}
+  .socials svg{width:22px;height:22px;flex:0 0 auto}
+  .socials a:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--blue)}
+  .socials a + a:active{box-shadow:2px 2px 0 var(--pink)}
 
   footer{
     background:#fff;border-top:4px solid var(--ink);
@@ -380,10 +400,23 @@
       <div>
         <p class="caption-box">Meanwhile, in a flooded basement in Langford&hellip;</p>
         <h1>Burst pipe?<br>She's already<br>on her way.</h1>
-        <p class="lede">Licensed, family and female owned plumbing from Sooke to Sidney and the Gulf Islands. Same-day help for leaks, blocked drains and cold showers.</p>
+        <p class="lede">Red Seal certified, family and female owned plumbing from Sooke to Sidney and the Gulf Islands. Same-day help for leaks, blocked drains and cold showers.</p>
         <div class="hero-cta">
           <a class="call" href="tel:+12502131455">Call 250-213-1455</a>
           <a class="btn-ghost" href="#contact">Send a message</a>
+        <p class="seal">
+          <svg viewBox="0 0 200 200" role="img" aria-label="Red Seal certified">
+            <circle cx="100" cy="100" r="95" fill="#D81E1E" stroke="#000" stroke-width="5"/>
+            <circle cx="100" cy="100" r="84" fill="none" stroke="#fff" stroke-width="6"
+                    stroke-dasharray="0.5 9" stroke-linecap="round" opacity=".95"/>
+            <circle cx="100" cy="100" r="75" fill="none" stroke="#fff" stroke-width="2.5"/>
+            <rect x="48" y="97" width="8" height="8" fill="#FFC93C" transform="rotate(45 52 101)"/>
+            <rect x="144" y="97" width="8" height="8" fill="#FFC93C" transform="rotate(45 148 101)"/>
+            <text x="100" y="87" text-anchor="middle" font-size="30" font-weight="900" fill="#fff">RED</text>
+            <text x="100" y="117" text-anchor="middle" font-size="30" font-weight="900" fill="#fff">SEAL</text>
+            <text x="100" y="137" text-anchor="middle" font-size="13" font-weight="800" fill="#fff" letter-spacing="2.4" opacity=".95">CERTIFIED</text>
+          </svg>
+        </p>
         </div>
       </div>
       <div class="hero-art">
@@ -432,6 +465,10 @@
           <h3>Small renovations</h3>
           <p>Bathroom and kitchen refreshes, from a new vanity to the whole room re-plumbed.</p>
         </div>
+        <div class="panel">
+          <h3>Poly-B pipe removal</h3>
+          <p>The grey polybutylene pipe in a lot of 1980s and 90s homes, taken out and replaced before it splits.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -449,6 +486,16 @@
           <li>Straight pricing, agreed before the work begins</li>
           <li>Family owned, female owned, and here for the long haul</li>
         </ul>
+        <div class="socials">
+          <a href="https://www.facebook.com/canadianrooter2020/" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8.5h2.9l.45-3.4h-3.35V7.9c0-.98.28-1.65 1.7-1.65H17V3.2c-.3-.04-1.35-.13-2.57-.13-2.55 0-4.3 1.55-4.3 4.4v2.53H7.2v3.4h2.93V22h3.37Z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/loislaineplumbing/" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" aria-hidden="true"><rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.4"/><circle cx="12" cy="12" r="4.4"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </a>
+        </div>
         <p class="signature">Your Super Hero Plumber</p>
       </div>
     </div>
@@ -490,6 +537,16 @@
         <li>Sooke</li><li>Central Saanich</li><li>North Saanich</li><li>Sidney</li>
         <li>Gulf Islands</li>
       </ul>
+        <div class="socials">
+          <a href="https://www.facebook.com/canadianrooter2020/" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8.5h2.9l.45-3.4h-3.35V7.9c0-.98.28-1.65 1.7-1.65H17V3.2c-.3-.04-1.35-.13-2.57-.13-2.55 0-4.3 1.55-4.3 4.4v2.53H7.2v3.4h2.93V22h3.37Z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/loislaineplumbing/" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" aria-hidden="true"><rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.4"/><circle cx="12" cy="12" r="4.4"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </a>
+        </div>
     </div>
   </section>
 
@@ -500,9 +557,18 @@
         <ul class="lines">
           <li><b>Phone</b><a href="tel:+12502131455">250-213-1455</a></li>
           <li><b>Email</b><a href="mailto:l.laine.plumbing@gmail.com">l.laine.plumbing@gmail.com</a></li>
-          <li><b>Facebook</b><a href="https://www.facebook.com/115954430203476" rel="noopener">Lois 'Laine Plumbing</a></li>
           <li><b>Service area</b>Sooke to Sidney and the Gulf Islands, British Columbia</li>
         </ul>
+        <div class="socials">
+          <a href="https://www.facebook.com/canadianrooter2020/" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8.5h2.9l.45-3.4h-3.35V7.9c0-.98.28-1.65 1.7-1.65H17V3.2c-.3-.04-1.35-.13-2.57-.13-2.55 0-4.3 1.55-4.3 4.4v2.53H7.2v3.4h2.93V22h3.37Z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/loislaineplumbing/" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" aria-hidden="true"><rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.4"/><circle cx="12" cy="12" r="4.4"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </a>
+        </div>
       </div>
       <div class="emergency">
         <h3>Water coming in right now?</h3>
